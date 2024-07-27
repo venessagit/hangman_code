@@ -58,13 +58,11 @@ typedef struct {
 } wordlist;
 
 int string_length (char *s){
-
     char *p = s;
     while (*p != '\0')
         p++;
-    
+        
     return p-s;
-
 }
 
 void printresults(int incorrect){
@@ -182,7 +180,6 @@ int play_game (struct hangman *game, char *word, char *hint){
 
 int readfromfile (wordlist *newlist){
     
-    
     FILE *fp;
     char line [100];
     int count = 0;
@@ -198,21 +195,18 @@ int readfromfile (wordlist *newlist){
     }
 
     fclose(fp);
-    return 1;
+    return 0;
 }
 
 int main (){
 
-    char words [][10] = {"cow", "dog", "monkey", "donkey", "deer", "snake"};
     int *playagain = 0;
     int results;
     int random_number;
-
-    wordlist newlist[NUM_WORDS] = {0};
-    readfromfile(newlist);
-    
-
     struct session newsession = {.wins=0, .losses=0, .total=0};
+    wordlist newlist[NUM_WORDS] = {0};
+
+    readfromfile(newlist);
 
     do{ 
         
@@ -229,8 +223,7 @@ int main (){
             newsession.wins += 1;
             printf("\nCongratulations! you saved the man :D\n");
 
-        }
-        else {
+        } else {
             newsession.losses += 1;
             printf("\nSorry! your man got hanged :( \n");
         }
@@ -241,8 +234,7 @@ int main (){
         printf("\nDo you wish to play again? Yes (1) or No (0).\n");
         scanf(" %d", &playagain);
 
-
-    }while(playagain > 0);
+    } while(playagain > 0);
 
     return 0;
 }
