@@ -7,23 +7,25 @@ Welcome to the game of hangman!
     |     / \
     |__________
 
-The rules are:
-    * The user can guess one letter at a time.
-    * The user has 6 wrong tries before the man is hanged.
-    * The user should not get penalized if they guessed a correct letter multiple times.
-    * The user should get penalized if they guessed a wrong letter multiple times.
-    * Allow user to play again.
 
-The program keeps check of the following:
-    * The secret word.
-    * The letters that have been guessed.
-    * The number of wrong guesses.
-    * The number of games played.
-    * The number of wins.
-    * The number of losses.
+<br>The rules are:<br>
+- The user can guess one letter at a time.<br>
+- The user has 6 wrong tries before the man is hanged.<br>
+- The user should not get penalized if they guessed a correct letter multiple times.<br>
+- The user should get penalized if they guessed a wrong letter multiple times.<br>
+- Allow user to play again.<br><br>
 
-Practice using the following:
-    * Functions
-    * Pointers
-    * Structs
-    * File I/O
+The program keeps check of the following:<br>
+- The secret word.<br>
+- The letters that have been guessed.<br>
+- The number of wrong guesses.<br>
+- The number of games played.<br>
+- The number of wins.<br>
+- The number of losses.<br><br>
+
+Practice using the following:<br>
+- Functions<br>
+- Pointers<br>
+- Structs<br>
+- File I/O<br>
+
