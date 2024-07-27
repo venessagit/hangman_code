@@ -1,0 +1,20 @@
+elephant, A large mammal with a trunk.
+computer, A device used for processing data.
+chocolate, A sweet treat made from cocoa.
+basketball, A sport played with a hoop and a ball.
+rainbow, A colorful arc seen after rain.
+astronaut, A person who travels to space.
+library, A place with many books.
+volcano, A mountain that can erupt with lava.
+microscope, An instrument used to see tiny objects.
+submarine, An underwater vessel.
+orchestra, A group of musicians playing together.
+telescope, An instrument to observe distant objects.
+dinosaur, An extinct reptile from prehistoric times.
+hurricane, A powerful storm with strong winds.
+pyramid, A large, triangular structure in Egypt.
+kangaroo, A marsupial from Australia that hops.
+galaxy, A system of stars, gas, and dust in space.
+spaghetti, A type of long, thin pasta.
+butterfly, An insect with colorful wings.
+waterfall, Water falling from a height.
