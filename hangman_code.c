@@ -156,12 +156,14 @@ int play_game (struct hangman *game, char *word, char *hint){
             count++;
         }
         
+        system("cls"); 
+        
         if (hang){
-            printf("you have guessed incorrectly!\n"); 
+            printf("You have guessed incorrectly!\n"); 
             //penalties apply if they guess the same wrong letter multiple times.
             game->incorrect +=1;
         } else 
-            printf("you have guessed correctly!\n"); 
+            printf("You have guessed correctly!\n"); 
 
         printresults(game->incorrect);
 
@@ -170,8 +172,8 @@ int play_game (struct hangman *game, char *word, char *hint){
         for(int i =0; i < length; i++)
             printf("%c",game->guess[i]);
 
-        printf("\n");
-            
+        printf("\n");   
+        
         if ((game->correct) == length) return 1;
 
     } while (game->incorrect < 6);
